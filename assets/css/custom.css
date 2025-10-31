@@ -12,10 +12,14 @@
   overflow-x: clip; /* modern browsers */
 }
 
-html, body, main {
+html, body{
   font-family: "Poppins", sans-serif;
   overflow-x: hidden !important;
   width: 100%;
+}
+
+main{
+  overflow: hidden;
 }
 
 #page-loader {
